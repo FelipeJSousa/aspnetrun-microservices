@@ -10,4 +10,10 @@
       <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
     </ItemGroup>
 
+    <ItemGroup>
+      <None Update="docker-compose.override.yml">
+        <DependentUpon>docker-compose.yml</DependentUpon>
+      </None>
+    </ItemGroup>
+
 </Project>
